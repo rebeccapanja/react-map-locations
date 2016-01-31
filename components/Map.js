@@ -32,7 +32,6 @@ var Map = React.createClass({
 		});
 
 		// Adding a marker to the location we are showing
-		
 		map.addMarker({
 			lat: this.props.lat,
 			lng: this.props.lng
